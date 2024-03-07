@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+    <div class="header">
+        <img src="./img/logo-header.png" alt="logo-menu">
+        <a>Home</a>
+        <a>Fale Conosco</a>
+        <a>Nossos Serviços</a>
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="logo do mario" class="logo-mario">
+            <p>Encanadores Mario e Luigi - Resolvendo Seus Problemas Com Estilo!</p>
+            <p>Você já se encontrou em situação de emergência com encanamento? Vazamentos inesperandos,canos entupidos
+                ou torneiras que não param de pingar? Não s preocupe,porque estamos aqui pra salvar o dia! Apresentamos
+                a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+            <button onclick="mostrarform()">Entre em Contato</button>
+
+        </div>
+        <div>
+            <img class="logo-mario-luigi" src="./img/mario.png" alt="logo-mario-luigi">
+        </div>
+
+    </div>
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+
+    </div>
+
+    <a href="https://wa.me/5534996430942?text=Ol%C3%A1+Como+Posso+Te+Ajudar+%3F" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="whatsapp">
+    </a>
+    <form class="fale-conosco" 
+            action="https://formcarry.com/s/nMbIwmGWjdO"    
+            method="POST" 
+            enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="Nome">
+        <input placeholder="Seu E-mail" type="email" name="E-mail">
+        <input placeholder="(DD) + Telefone" type="tel" name="Telefone">
+        <textarea placeholder="Digite sua Mensangem Aqui..." name="Duvida"></textarea>
+        <button type="submit">Envie sua Mensangem</button>
+    </form>
+
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
