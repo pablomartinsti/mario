@@ -15,6 +15,7 @@
 <li><strong>CSS3</strong></li>
 <li><strong>JavaScript</strong></li>
 </ul>
-
+ 
+ <a href="https://pablomartinsti.github.io/mario">Visite o Projeto Mario</a>
 
 <img src = "https://github.com/pablomartinsti/mario/blob/main/img/Apresenta%C3%A7ao.png">
